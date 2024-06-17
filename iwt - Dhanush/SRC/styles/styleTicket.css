@@ -1,0 +1,169 @@
+body{
+	background-image:url("uni1.jpg");
+    background-color:bisque;
+	background-size:cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;	
+    backdrop-filter: blur(2px);
+}
+
+.title
+{
+    text-align: center;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgba(189, 183, 107, 0.507);
+    padding: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    max-width: 100%;
+
+}
+
+#btnicon
+{
+    background: transparent;
+    outline: 0;
+    border: 0;
+   
+}
+::placeholder
+{
+    color:#555;
+}
+.result-box ul
+{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+.result-box ul li
+{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+
+#legend
+{
+    background-color:rgb(182, 145, 96);
+    color:rgb(73, 38, 8);
+}
+
+fieldset
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.field
+{
+    background-color: rgba(255, 255, 255, 0.322);
+    outline: 0%;
+    outline: none;
+    border: none;
+    border-radius: 28px;  
+}
+.logo
+{
+    display:inline;
+    padding-left:43%;
+}
+
+#ticket
+{
+   
+    display: inline-block; 
+    position: absolute;
+    right: 12%;
+    top:40%;
+    border:rgba(255, 255, 255, 0.973);
+    border-style:dashed;
+    border-width: 7px;
+    border-radius: 28px;   
+}
+
+#inconId:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+   
+}
+.formContent
+{
+    text-align: left;
+
+}
+.tbinput
+{
+    font-size: 20px;
+    color: black;
+    opacity: 0.8;
+    background-color: #ffffff88;
+    outline: none;
+    border: none;
+}
+
+#attachfiles
+{
+    background-color:cadetblue;
+    color:black;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
+.topimg:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
+
+
+#legend:hover
+{
+    background-color: #555555d5;
+    color: chartreuse;
+}
+
+a
+{
+    display: inline;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.btn
+{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border: hidden;
+}
+.btn a
+{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+.btn a:hover
+{
+    color: chartreuse;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: rgba(36, 81, 206, 0.692);
+    color: white;
+}
