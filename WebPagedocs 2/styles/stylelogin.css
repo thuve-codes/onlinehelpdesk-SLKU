@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "blak";
+    src: url('fonts/BlakaInk-Regular.ttf');
+}
+
+@font-face {
+    font-family: "PressStar2P";
+    src: url('fonts/PressStart2P-Regular.ttf');
+}
+
+.greeting {
+    font-family: "PressStar2P";
+    color: #ccccccad;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    background-color: #0a0a0a7a;
+}
+
+body {
+    justify-content: left;
+    background-color: #a6aca6da;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.308)), url('upbackg12.jpg');
+    /*to right, #ff00001c, #0000ff2f*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+
+}
+
+legend {
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: initial;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #461034;
+    border-radius: 9px;
+    color: white;
+    padding: 30px;
+}
+
+.formc {
+    background-color: #f2f2f25d;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.imusericon {
+    width: 125px;
+    margin-top: 1px;
+    margin-left: 39%;
+}
+
+.email,
+.password,
+.submit {
+    width: 96%;
+    padding: 10px;
+    margin: 5px 4;
+    border: hidden;
+    border-radius: 4px;
+}
+
+.submit {
+    background-color: #692351;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #c488b7;
+}
+
+.frgtpswd {
+    color: #0a0a0a;
+    width: 500px;
+    padding: 2px;
+    border: hidden;
+    background: transparent;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.frgtpswd:hover {
+    color: blue;
+}
+
+.lockimg {
+    width: 11px;
+}
+
+.form-section {
+    margin-left: 150px;
+    font-style: italic;
+    width: 30px;
+    margin: 150px auto;
+    border: hidden;
+}
+
+#headerlink {
+    border: hidden;
+}
