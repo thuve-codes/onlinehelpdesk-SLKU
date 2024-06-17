@@ -1,0 +1,109 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+}
+.footer
+{
+    background-color: #111;
+    width: 100%;
+    
+}
+footer{
+    width: 100%;
+}
+.footerContainer
+{
+    width:100%;
+    padding:70px 30px 20px;
+    display: inline;
+}
+
+.socialIcons
+{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.socialIcons a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i
+{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover
+{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i
+{
+    color: chartreuse;
+    transition: 0.5s;
+}
+
+.Nav
+{
+    margin:30px 0;
+}
+.Nav ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.Nav ul li a
+{
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.Nav ul li a:hover
+{
+    opacity: 1;
+}
+.fimage1
+{
+    height:15%;
+    width:25%;
+    position:relative;
+    
+}
+
+.fimage2
+{
+    height: 30%;
+    width: 40%;
+    position: relative;
+    float:right;
+}
+.footerBottom
+{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+

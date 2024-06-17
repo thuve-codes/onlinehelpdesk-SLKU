@@ -1,0 +1,24 @@
+function loadData(data) {
+    if (data == "btn1") {
+        document.getElementById("img1").src = "IT.jpg";
+        document.getElementById("facHead").innerHTML = "Faculty of Computing";
+        document.getElementById("para1").innerHTML = "The Faculty of Computing at Sri Lanka Knowledge University is a dynamic and innovative hub of learning and research, dedicated to excellence in computing education. With a strong emphasis on practical, hands-on learning, our faculty prepares students to excel in the rapidly evolving field of computing. Our experienced faculty members are not only experts in their respective fields but also passionate mentors, guiding students to explore and innovate. The faculty offers a diverse range of programs, from foundational courses to specialized areas such as artificial intelligence, cybersecurity, and data science. Through state-of-the-art facilities and industry partnerships, we provide students with the tools and opportunities to develop their skills and make meaningful contributions to the field of computing. Join us at the Faculty of Computing and embark on a transformative journey towards a successful career in computing.";
+    } else if (data == "btn2") {
+        document.getElementById("img1").src = "Engineering.jpg";
+        document.getElementById("facHead").innerHTML = "Faculty of Engineering";
+        document.getElementById("para1").innerHTML = "The Faculty of Engineering at Sri Lanka Knowledge University (SLKU) is a dynamic and innovative institution dedicated to fostering excellence in engineering education, research, and practice. With a commitment to nurturing future leaders in the field of engineering, the faculty offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge, skills, and expertise needed to address the complex challenges of the modern world. Through state-of-the-art facilities, industry partnerships, and a world-class faculty, the Faculty of Engineering at SLKU provides a stimulating environment where students can engage in cutting-edge research, hands-on learning experiences, and interdisciplinary collaboration. With a focus on innovation, sustainability, and societal impact, the faculty prepares graduates to be global citizens and agents of positive change in the field of engineering.";
+    }
+    else if (data == "btn3") {
+        document.getElementById("img1").src = "Business.jpg";
+        document.getElementById("facHead").innerHTML = "School of Business";
+        document.getElementById("para1").innerHTML = "The School of Business at Sri Lanka Knowledge University (SLKU) is a premier institution dedicated to providing high-quality education in business and management. With a commitment to excellence, the School of Business offers a diverse range of undergraduate, postgraduate, and doctoral programs designed to prepare students for successful careers in the dynamic field of business. The school's curriculum is carefully crafted to provide students with a solid foundation in business principles, coupled with practical skills and real-world experience. Through innovative teaching methods, industry-relevant coursework, and experiential learning opportunities, the School of Business equips students with the knowledge, skills, and mindset needed to excel in today's competitive business environment. With a focus on holistic development and ethical leadership, the School of Business at SLKU aims to nurture future business leaders who are not only successful professionals but also responsible global citizens.";
+    }
+    else if (data == "btn4") {
+        document.getElementById("img1").src = "Humanities.jpg";
+        document.getElementById("facHead").innerHTML = "Faculty of Humanities and Sciences";
+        document.getElementById("para1").innerHTML = "The Faculty of Humanities and Sciences at Sri Lanka Knowledge University (SLKU) is a dynamic academic community dedicated to fostering interdisciplinary learning and research. Comprising a diverse range of disciplines including humanities, social sciences, natural sciences, and mathematics, the faculty offers a comprehensive educational experience that encourages critical thinking, creativity, and innovation. With a strong emphasis on holistic education, students are provided with a well-rounded academic foundation that prepares them for a wide array of careers and challenges in the modern world. The faculty's commitment to excellence is reflected in its world-class faculty members, state-of-the-art facilities, and innovative teaching methodologies. Through a combination of theoretical knowledge and practical application, the Faculty of Humanities and Sciences at SLKU aims to empower students to become leaders in their respective fields and make meaningful contributions to society.";
+    } else {
+        alert("Invalid!");
+    }
+}
+

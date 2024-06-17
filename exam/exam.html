@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="../exam/exam.js"></script>
+      <script src="../exam/style.css"></script>
+   </head>
+   <body>
+      <nav id="nav">
+         <div id="nave-image">
+          <img src="../nav/logo.png" alt="logo">
+ 
+         <div class="SLKU"> <h3>SLKU</h3></div>
+         </div>
+         <div id="nave-name">
+             <ul>
+                 <li class="home"><a href="#">Home</a></li>
+                 <li  class="home"><a href="../home/main.html">Services</a>
+                     <ul class="drop-down">
+                         <li><a href="../iwt - Dhanush/SRC/Mytickets.php">Ticket-registration</a></li>
+                         <li><a href="#">Exam-registration</a></li>
+                         <li><a href="../Shuttle Registration/user.php">shuttle registration</a></li>
+                     </ul>
+                 </li>
+                 <li  class="home"><a href="../iwt - Dhanush/SRC/StudentLife.html">StudentLife</a></li>
+                 <li  class="home"><a href="../About Us/about us.html">AboutUs</a></li>
+              </ul>
+             
+         </div>
+ 
+            <button id="up">
+             <div class="upp"> <img src="../nav/up.png" class="uprof">  <br>  Update Profile
+            </button>
+         
+         
+     </nav>
+      <div class="main-div">
+         <form id="main-form" action="./connect.php" method="post">
+            <div class="registar-form">
+               <div class="form-heading">
+                  <h2>Exam registration form</h2>
+               </div>
+               <div class="input-fields">
+
+                  <div class="half-width">
+                     <input required type="text" placeholder="First name" name="firstName"/>
+                  </div>
+
+                  <div class="half-width">
+                     <input required type="text" placeholder="Last name" name="lastName"/>
+                  </div>
+
+                  <div class="full-width">
+                     <input required type="text" placeholder="Student registration number" name="registarId"/>
+                  </div>
+
+                  <div class="full-width">
+                     <input required type="email" placeholder="Email address" name="email"/>
+                  </div>
+
+                  <div class="option-div">
+                     <select name="semester" >
+                        <option value name="semester">Select the year</option>
+                        <option name="semester">1st year 1st semester</option>
+                        <option name="semester">1st year 2nd semester</option>
+                        <option name="semester">2nd year 1st semester</option>
+                        <option name="semester">2nd year 2nd semester</option>
+                        <option name="semester">3rd year 1st semester</option>
+                        <option name="semester">3rd year 2nd semester</option>
+                        <option name="semester">4th year 1st semester</option>
+                        <option name="semester">4th year 2nd semester</option>
+                     </select>
+                  </div>
+
+                  <div class="full-width">
+                     <input  required type="text" placeholder="Enter your subject name " name="subject"/>
+                  </div>
+                  <div class="comments">
+                     <input  type="text" placeholder="Enter your comments" name="comments"/>
+                  </div>
+
+                  <div >
+                     <button  onclick="submitForm()" id="ripple-btn" class="sumbit" name="submit">submit</button>
+                  </div>
+                  
+
+
+
+               </div>
+            </div>
+         </form>
+      </div>
+      <footer>
+         <div class="footer">
+             <div class="footerContainer"> 
+             <div class="socialIcons" >
+                 <a href=""><i class="fa-brands fa-facebook"></i></a>
+                 <a href=""><i class="fa-brands fa-instagram"></i></a>
+                 <a href=""><i class="fa-brands fa-youtube"></i></a>
+                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                 <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </div>  
+              <div class="Nav">
+                 <ul>
+                     <li><a href="">Home</a></li>
+                     <li><a href="">Student Life</a></li>
+                     <li><a href="">About Us</a></li>
+                     </ul>
+              </div>
+             
+             </div>
+             <div class="footerBottom">
+                 <p>
+                     Copyright &copy;2024;Designed by FOC
+                 </p>
+              </div>
+           
+             
+         </div>
+     </footer>
+
+   </body>
+</html>
